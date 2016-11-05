@@ -412,7 +412,7 @@ BERGeneralDecoder::~BERGeneralDecoder()
 	}
 	catch (const Exception&)
 	{
-		assert(0);
+		//assert(0);
 	}
 }
 
